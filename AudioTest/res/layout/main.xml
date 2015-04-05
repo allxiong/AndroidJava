@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}"
+    android:orientation="vertical" >
+
+	<LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btnC"
+            android:layout_width="64sp"
+            android:layout_height="wrap_content"
+            android:text="C"
+            android:onClick="play" />
+
+        <Button
+            android:id="@+id/btnD"
+            android:layout_width="64sp"
+            android:layout_height="wrap_content"
+            android:text="D"
+            android:onClick="play" />
+
+        <Button
+            android:id="@+id/btnE"
+            android:layout_width="64sp"
+            android:layout_height="wrap_content"
+            android:text="E"
+            android:onClick="play" />
+        
+        <Button
+            android:id="@+id/btnF"
+            android:layout_width="64sp"
+            android:layout_height="wrap_content"
+            android:text="F"
+            android:onClick="play" />
+        
+        <Button
+            android:id="@+id/btnG"
+            android:layout_width="64sp"
+            android:layout_height="wrap_content"
+            android:text="G"
+            android:onClick="play" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnPlaySong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play Local Song"
+        android:onClick="playLocalAudio" />
+
+
+
+</LinearLayout>

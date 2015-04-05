@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ActionBar="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.actionbar.MyActionBar" >
+
+    <group android:id="@+id/group1" >
+        <item
+            android:id="@+id/greeting"
+            ActionBar:showAsAction="ifRoom|withText"
+            android:title="Greeting" android:showAsAction="always">
+        </item>
+        <item
+            android:id="@+id/show_submenu"
+            ActionBar:showAsAction="ifRoom|withText"
+            android:title="Show Submenu">
+            <menu>
+                <item
+                    android:id="@+id/search"
+                    android:title="Search"/>
+                <item
+                    android:id="@+id/email"
+                    android:title="Compose Email"/>
+                <item
+                    android:id="@+id/settings"
+                    android:title="Settings"/>
+            </menu>
+        </item>
+    </group>
+
+</menu>

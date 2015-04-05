@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">My2ndViewGroup</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="now_showing">Now Showing</string>
+    <string name="show_text">Show Text</string>
+    <string name="show_view_group">Show View Group</string>
+
+</resources>

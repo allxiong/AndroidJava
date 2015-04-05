@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:id="@+id/tvname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="name"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp" >
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/tvMajor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Major"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/etMajor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update DB" 
+        android:textSize="20sp"
+        android:onClick="onUpdateClicked"/>
+    
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear DB" 
+        android:textSize="20sp"
+        android:onClick="onClearClicked"/>
+    
+    <Button
+        android:id="@+id/btnQuery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Query DB" 
+        android:textSize="20sp"
+        android:onClick="onQueryClicked"/>
+    
+    <TextView android:id="@+id/tvDBView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp" />
+
+</LinearLayout>

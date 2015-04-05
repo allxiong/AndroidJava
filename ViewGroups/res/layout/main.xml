@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+      
+    <Button
+            android:id="@+id/btnShwoView"
+            android:text="Show View Group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="showViewgroup" />
+        
+    <LinearLayout
+        android:id="@+id/viewgrp_layout"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" >
+              
+        <Button
+            android:id="@+id/btnDisplay"
+            android:text="Display Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="displayText" />
+        
+        <TextView
+            android:id="@+id/textview1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#00FF00" 
+            android:textSize="20sp"/>
+        
+        
+    </LinearLayout>
+
+
+</LinearLayout>

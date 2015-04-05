@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, SomeOtherApp!</string>
+    <string name="app_name">SomeOtherApp</string>
+    <string name="button1_text">Open Editor</string>
+    <string name="button2_text">Open Google</string>
+
+</resources>
