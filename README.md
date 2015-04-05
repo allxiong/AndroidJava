@@ -1,3 +1,3 @@
 # AndroidJava
 My android Java code repository.
-I am a software engineer and have worked in the high tech industry for about 14 years. I have worked as senior software engineer for companies such as Synaptics and Mortorola, and was responsible for design and implementation of various applications and embedded software for mobile devices. Here are some of the non-work related projects I coded in Android Java that utilizes a wide range of android programming skills such as UI design, data persistency, multi-threading, SQLite, content provider, service, RESTFul web service, JSON, graphics, animation, location services. 
+Here are some of the projects I coded in Android Java that utilizes a wide range of android programming skills such as UI design, data persistency, multi-threading, SQLite, content provider, service, RESTFul web service, JSON, graphics, animation, location services. 
